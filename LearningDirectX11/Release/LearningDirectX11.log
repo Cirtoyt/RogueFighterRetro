@@ -1,0 +1,12 @@
+﻿  Game.cpp
+d:\my_stuff_u\year_3\at_advanced_technologies\project 1 - old school fps game\learningdirectx11 4 - rogue fighter retro\learningdirectx11\game.cpp(157): warning C4018: '<': signed/unsigned mismatch
+d:\my_stuff_u\year_3\at_advanced_technologies\project 1 - old school fps game\learningdirectx11 4 - rogue fighter retro\learningdirectx11\game.cpp(517): warning C4018: '<': signed/unsigned mismatch
+d:\my_stuff_u\year_3\at_advanced_technologies\project 1 - old school fps game\learningdirectx11 4 - rogue fighter retro\learningdirectx11\game.cpp(547): warning C4018: '<': signed/unsigned mismatch
+d:\my_stuff_u\year_3\at_advanced_technologies\project 1 - old school fps game\learningdirectx11 4 - rogue fighter retro\learningdirectx11\game.cpp(667): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+d:\my_stuff_u\year_3\at_advanced_technologies\project 1 - old school fps game\learningdirectx11 4 - rogue fighter retro\learningdirectx11\game.cpp(686): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  Generating code
+  78 of 1861 functions ( 4.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    49 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  LearningDirectX11.vcxproj -> D:\My_Stuff_U\Year_3\AT_Advanced_Technologies\Project 1 - Old School FPS Game\LearningDirectX11 4 - Rogue Fighter Retro\Release\LearningDirectX11.exe

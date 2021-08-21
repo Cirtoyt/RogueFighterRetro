@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{095807f6-1f1b-4fe6-901a-b166390d5b2c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CirtException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GDIPlusManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Surface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CirtWin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CirtException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GDIPlusManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Surface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LearningDirectX11.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="sao_wiki_alicization_favicon_variant_2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="GameData\blurBox.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="GameData\Conrad.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="GameData\Conrad.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="GameData\Crosshair.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="GameData\goalSpaceBox.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="GameData\HUD.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="GameData\HUDBeam.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="GameData\LoadingLevelOverlay.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="GameData\MainMenuOverlay.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="GameData\spaceBox.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="GameData\TestCrateTexture.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="GameData\TestLuckyBlockTexture.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="ColourIndexPS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="ColourIndexVS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="TexturePS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="TextureVS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ColourIndexPS.cso" />
+    <None Include="ColourIndexVS.cso" />
+    <None Include="VertexShader.cso" />
+    <None Include="TextureVS.cso" />
+    <None Include="TexturePS.cso" />
+    <None Include="PixelShader.cso" />
+    <None Include="LearningDirectX11.aps" />
+    <None Include="GameData\Crosshair.psd" />
+    <None Include="GameData\goalSpaceBox.psd" />
+    <None Include="GameData\HUD.psd" />
+    <None Include="GameData\HUDBeam.psd" />
+    <None Include="GameData\LoadingLevelOverlay.psd" />
+    <None Include="GameData\MainMenuOverlay.psd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="GameData\Level0.txt" />
+    <Text Include="GameData\Level0i.txt" />
+    <Text Include="GameData\Level1.txt" />
+    <Text Include="GameData\Level1i.txt" />
+    <Text Include="GameData\Level2.txt" />
+    <Text Include="GameData\Level2i.txt" />
+    <Text Include="GameData\Level3.txt" />
+    <Text Include="GameData\Level3i.txt" />
+  </ItemGroup>
+</Project>
